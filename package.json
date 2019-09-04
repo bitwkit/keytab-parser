@@ -1,0 +1,30 @@
+{
+  "name": "keytab-parser",
+  "version": "1.0.0",
+  "description": "A simple parser for Kerberos keytab files",
+  "main": "dist/index.js",
+  "files": ["dist/**/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitwkit/keytab-parser.git"
+  },
+  "keywords": [
+    "kerberos",
+    "keytab",
+    "parser"
+  ],
+  "author": "bitwkit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitwkit/keytab-parser/issues"
+  },
+  "homepage": "https://github.com/bitwkit/keytab-parser#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
